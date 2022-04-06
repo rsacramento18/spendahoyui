@@ -5,12 +5,15 @@ import HelloWorld from '@/components/HelloWorld.vue'
 
 <template>
   <header>
-    <div class="wrapper">
+    <div class="logo">
+      <h1>Spendahoy</h1>
+    </div>
+    <div class="menu">
       <nav>
-        <RouterLink to="/">Dashboard</RouterLink>
-        <RouterLink to="/budget">Budget</RouterLink>
-        <RouterLink to="/categories">Categories</RouterLink>
-        <RouterLink to="/import">import</RouterLink>
+        <RouterLink to="/">{{ $t('router.dashboard') }}</RouterLink>
+        <RouterLink to="/budget">{{ $t('router.budget') }}</RouterLink>
+        <RouterLink to="/categories">{{ $t('router.categories') }}</RouterLink>
+        <RouterLink to="/import">{{ $t('router.import') }}</RouterLink>
       </nav>
     </div>
   </header>

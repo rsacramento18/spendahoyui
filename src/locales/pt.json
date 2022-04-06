@@ -1,0 +1,8 @@
+{
+  "router": {
+    "dashboard": "Home",
+    "budget": "Limites",
+    "categories": "Categorias",
+    "import": "Importar"
+  }
+}
