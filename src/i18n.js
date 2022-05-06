@@ -5,12 +5,10 @@ async function loadLocaleMessages() {
   const messages = {}
   for (const path in locales) {
     await locales[path]().then((mod) => {
-      console.log(path,mod);
       const locale = path.substring(10, path.length - 5);
       messages[locale] = mod.default;
     });
   }
-  console.log('this is messages', messages);
   return messages
 }
 

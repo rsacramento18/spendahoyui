@@ -18,7 +18,7 @@ import HelloWorld from '@/components/HelloWorld.vue'
     </div>
   </header>
 
-  <div>
+  <div class="router-view">
     <RouterView />
   </div>
 </template>

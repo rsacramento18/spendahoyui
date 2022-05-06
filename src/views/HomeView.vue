@@ -1,9 +1,7 @@
 <script setup lang="ts">
-import TheWelcome from '@/components/TheWelcome.vue'
+  import Transactions from '@/components/transactions/Transactions.vue'
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <Transactions />
 </template>
